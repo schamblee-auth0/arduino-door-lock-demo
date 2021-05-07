@@ -100,8 +100,7 @@ int Auth0Arduino::executeDeviceAuthorizationRequest(
     ParamPair authParams[] = {
         {"client_id", params.clientId},
         {"response_type", params.responseType},
-        {"scope", params.scope},
-        {"audience", params.audience}
+        {"scope", params.scope}
     };
 
     int failure = this->client->post(

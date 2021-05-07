@@ -112,7 +112,6 @@ struct AuthorizationRequestParams
      * `openid profile email` is always added to all requests.
      */
     String scope;
-    String audience;
 
     String responseType;
 #ifdef OPENID_CONNECT
